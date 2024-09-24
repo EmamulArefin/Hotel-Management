@@ -1,0 +1,105 @@
+/* General Reset and Styles */
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .registration-container {
+        background-color: white;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        width: 500px;
+        text-align: center;
+    }
+    
+    h2 {
+        margin-bottom: 20px;
+    }
+    
+    .input-group {
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    
+    label {
+        font-size: 14px;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    input:focus {
+        border-color: #007BFF;
+        outline: none;
+    }
+    
+    .btn {
+        background-color: #007BFF;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Gender Section */
+    
+    .gender {
+        margin-bottom: 15px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    
+    .gender input[type="radio"] {
+        margin-right: 5px;
+    }
+    
+    .gender label {
+        margin-right: 20px;
+        font-size: 14px;
+    }
+    
+    /* Error Messages */
+    
+    .error-message {
+        color: #FF4D4D; /* Red color for error messages */
+        display: flex;
+        margin-top: 5px;
+    }
+    
+    .log-in a {
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .log-in a:hover {
+        text-decoration: underline;
+    }
